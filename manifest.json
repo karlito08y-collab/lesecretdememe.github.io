@@ -1,0 +1,21 @@
+{
+  "name": "Le Secret de Mémé",
+  "short_name": "Mémé",
+  "description": "Recettes de cuisine simples et délicieuses.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#fff7ef",
+  "theme_color": "#c1440e",
+  "icons": [
+    {
+      "src": "images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

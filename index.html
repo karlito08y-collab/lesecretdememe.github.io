@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Le Secret de Mémé — Recettes de cuisine</title>
+<meta name="description" content="Application de recettes de cuisine simples, délicieuses et faciles à préparer.">
+<meta name="theme-color" content="#c1440e">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="images/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a href="index.html" class="logo">Le Secret <span>de Mémé</span></a>
+    <nav class="menu">
+      <a href="index.html">Accueil</a>
+      <a href="#recettes">Recettes</a>
+      <a href="#categories">Catégories</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Bienvenue</p>
+      <h1>Les meilleures recettes,<br>transmises avec amour.</h1>
+      <p class="lead">Découvrez des recettes simples, savoureuses et faciles à préparer pour toute la famille.</p>
+      <div class="search-box"><input id="search" type="search" placeholder="Rechercher une recette..."></div>
+    </div>
+  </section>
+  <section class="section" id="categories">
+    <div class="container">
+      <h2 class="section-title">Catégories</h2>
+      <div class="chips">
+        <button class="chip active" data-cat="toutes">Toutes</button>
+        <button class="chip" data-cat="entree">Entrées</button>
+        <button class="chip" data-cat="plat">Plats</button>
+        <button class="chip" data-cat="dessert">Desserts</button>
+        <button class="chip" data-cat="boisson">Boissons</button>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="recettes">
+    <div class="container">
+      <h2 class="section-title">Recettes populaires</h2>
+      <div class="grid" id="recipes"></div>
+    </div>
+  </section>
+  <section class="section alt" id="contact">
+    <div class="container cta">
+      <h2>Une recette à partager ?</h2>
+      <p>Écrivez-nous pour proposer une recette ou poser une question.</p>
+      <a class="btn" href="mailto:contact@lesecretdememe.com">Nous écrire</a>
+    </div>
+  </section>
+</main>
+<footer class="footer"><div class="container"><p>© 2026 Le Secret de Mémé. Recettes de cuisine.</p></div></footer>
+<div class="modal" id="modal"><div class="modal-box"><button class="close" id="close">&times;</button><div id="modal-content"></div></div></div>
+<script src="app.js"></script>
+</body>
+</html>
