@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarte aux pommes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Tarte aux pommes</h1>
+
+  <h2>Ingrédients</h2>
+  <ul>
+    <li>3 pommes</li>
+    <li>1 pâte brisée</li>
+    <li>100 g de sucre</li>
+    <li>1 cuillère à café de cannelle</li>
+  </ul>
+
+  <h2>Préparation</h2>
+  <ol>
+    <li>Préchauffe le four à 180 °C.</li>
+    <li>Étale la pâte dans un moule.</li>
+    <li>Ajoute les pommes et le sucre.</li>
+    <li>Fais cuire pendant 35 minutes.</li>
+  </ol>
+
+  <a href="index.html">Retour à l’accueil</a>
+</body>
+</html>
